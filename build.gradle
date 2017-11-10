@@ -9,6 +9,7 @@ repositories {
     mavenLocal()
     jcenter()
 }
+
 buildscript {
     project.ext {
         serenityVersion = '1.1+'
@@ -22,6 +23,14 @@ buildscript {
         classpath('net.serenity-bdd:serenity-gradle-plugin:' + serenityVersion)
     }
 
+}
+task customTask {
+    inputs.file "input.txt"
+    outputs.file "output-dir/output.txt"
+    doLast {
+        mkdir "output-dir"
+        file("output-dir/output.txt") << file("input.txt")
+    }
 }
 
 dependencies {
