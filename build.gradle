@@ -9,14 +9,6 @@ repositories {
     mavenLocal()
     jcenter()
 }
-
-class CustomTask {
-    @Classpath FileCollection classpath
-}
-
-task customTask(type: CustomTask) {
-    classpath = files("lib1.jar", "lib2.jar")
-}
 buildscript {
     project.ext {
         serenityVersion = '1.1+'
