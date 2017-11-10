@@ -1,0 +1,59 @@
+<acceptance-test-run title="ingreso a correo electronico de gmail" name="ingreso a correo electronico de gmail" steps="6" successful="6" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="54652" timestamp="2017-11-10T14:28:39.451-05:00">
+  <user-story id="correo_electronico_gmail" name="Correo electronico gmail" path="stories.correoelectronico.correoelectronico/correo_electronico_gmail.story"/>
+  <tags>
+    <tag name="Correo electronico gmail" type="story"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0"/>
+    </datasets>
+    <headers>
+      <header></header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value></value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {=}" result="SUCCESS">
+    <test-group name="Given puedo ingresar a gmail" result="SUCCESS">
+      <test-step result="SUCCESS" duration="9846">
+        <description>Ingresar a gmail</description>
+      </test-step>
+    </test-group>
+    <test-group name="And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:［&#xd;&#xa;|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;&#xa;|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |］" result="SUCCESS">
+      <test-step result="SUCCESS" duration="14245">
+        <description>Ingresar a correo electronico: ExamplesTable[tableAsString=&#xd;
+|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |,headerSeparator=|,valueSeparator=|,ignorableSeparator=|--,parameterConverters=org.jbehave.core.steps.ParameterConverters@41d755cf,tableTransformers=org.jbehave.core.model.TableTransformers@3fea4ec1,defaults=org.jbehave.core.steps.ConvertedParameters@59d11d4e,headers=[correoElectronicoONumeroTelefonico, contrasenia],data=[{correoElectronicoONumeroTelefonico=taniagrajalesalzate@gmail.com, contrasenia=)%=#!%_taniaa}],properties={headerSeparator=|, valueSeparator=|, ignorableSeparator=|--},propertiesAsString=,namedParameters={=},trim=true]</description>
+      </test-step>
+    </test-group>
+    <test-group name="And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:［&#xd;&#xa;|para                                       |asunto              |mensaje                                             |&#xd;&#xa;|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|］" result="SUCCESS">
+      <test-step result="SUCCESS" duration="10218">
+        <description>Enviar mensaje correo electronico: ExamplesTable[tableAsString=&#xd;
+|para                                       |asunto              |mensaje                                             |&#xd;
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|,headerSeparator=|,valueSeparator=|,ignorableSeparator=|--,parameterConverters=org.jbehave.core.steps.ParameterConverters@41d755cf,tableTransformers=org.jbehave.core.model.TableTransformers@3fea4ec1,defaults=org.jbehave.core.steps.ConvertedParameters@6e23f41d,headers=[para, asunto, mensaje],data=[{para=carlitoslop9876@gmail.com, asunto=Prueba Correo15, mensaje=Hola Carlos esta es una prueba de correo electronico}],properties={headerSeparator=|, valueSeparator=|, ignorableSeparator=|--},propertiesAsString=,namedParameters={=},trim=true]</description>
+      </test-step>
+    </test-group>
+    <test-group name="When quiera acceder a la cuenta de correo electronico del usuario destinatario" result="SUCCESS">
+      <test-step result="SUCCESS" duration="7207">
+        <description>Salir e ingresar a correo electronico</description>
+      </test-step>
+    </test-group>
+    <test-group name="And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:［&#xd;&#xa;|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;&#xa;|carlitoslop9876@gmail.com                               |carlosgrisales                             |］" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8158">
+        <description>Ingresar a correo electronico: ExamplesTable[tableAsString=&#xd;
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |,headerSeparator=|,valueSeparator=|,ignorableSeparator=|--,parameterConverters=org.jbehave.core.steps.ParameterConverters@41d755cf,tableTransformers=org.jbehave.core.model.TableTransformers@3fea4ec1,defaults=org.jbehave.core.steps.ConvertedParameters@34acb1a9,headers=[correoElectronicoONumeroTelefonico, contrasenia],data=[{correoElectronicoONumeroTelefonico=carlitoslop9876@gmail.com, contrasenia=carlosgrisales}],properties={headerSeparator=|, valueSeparator=|, ignorableSeparator=|--},propertiesAsString=,namedParameters={=},trim=true]</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:［&#xd;&#xa;|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;&#xa;|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|］" result="SUCCESS">
+      <test-step result="SUCCESS" duration="4458">
+        <description>Ingresar a opcion recibidos correo electronico: ExamplesTable[tableAsString=&#xd;
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|,headerSeparator=|,valueSeparator=|,ignorableSeparator=|--,parameterConverters=org.jbehave.core.steps.ParameterConverters@41d755cf,tableTransformers=org.jbehave.core.model.TableTransformers@3fea4ec1,defaults=org.jbehave.core.steps.ConvertedParameters@54f03ba4,headers=[correoElectronicoONumeroTelefonico, asunto, mensaje],data=[{correoElectronicoONumeroTelefonico=taniagrajalesalzate@gmail.com, asunto=Prueba Correo, mensaje=Hola Carlos esta es una prueba de correo electronico}],properties={headerSeparator=|, valueSeparator=|, ignorableSeparator=|--},propertiesAsString=,namedParameters={=},trim=true]</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>

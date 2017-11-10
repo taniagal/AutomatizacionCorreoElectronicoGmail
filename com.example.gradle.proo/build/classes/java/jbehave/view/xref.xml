@@ -1,0 +1,748 @@
+<xref>
+  <stories>
+    <performableStory>
+      <story>
+        <path>stories.correoelectronico.correoelectronico/correo_electronico_gmail.story</path>
+        <description>
+          <descriptionAsString></descriptionAsString>
+        </description>
+        <narrative>
+          <inOrderTo></inOrderTo>
+          <asA></asA>
+          <iWantTo></iWantTo>
+          <soThat></soThat>
+        </narrative>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <lifecycle>
+          <before>
+            <steps class="java.util.Arrays$ArrayList">
+              <a class="string-array"/>
+            </steps>
+          </before>
+          <after/>
+        </lifecycle>
+        <scenarios>
+          <scenario>
+            <title>ingreso a correo electronico de gmail</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>||&#xd;
+||</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string></string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string></string>
+                    <string></string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given puedo ingresar a gmail</string>
+              <string>And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:&#xd;
+|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |</string>
+              <string>And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:&#xd;
+|para                                       |asunto              |mensaje                                             |&#xd;
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|</string>
+              <string>When quiera acceder a la cuenta de correo electronico del usuario destinatario</string>
+              <string>And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:&#xd;
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |</string>
+              <string>Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:&#xd;
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|</string>
+            </steps>
+          </scenario>
+        </scenarios>
+        <name>correo_electronico_gmail.story</name>
+      </story>
+      <localizedNarrative>As a 
+I want to 
+So that </localizedNarrative>
+      <allowed>true</allowed>
+      <status>SUCCESSFUL</status>
+      <givenStories/>
+      <scenarios>
+        <performableScenario>
+          <scenario>
+            <title>ingreso a correo electronico de gmail</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>||&#xd;
+||</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string></string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string></string>
+                    <string></string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given puedo ingresar a gmail</string>
+              <string>And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:&#xd;
+|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |</string>
+              <string>And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:&#xd;
+|para                                       |asunto              |mensaje                                             |&#xd;
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|</string>
+              <string>When quiera acceder a la cuenta de correo electronico del usuario destinatario</string>
+              <string>And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:&#xd;
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |</string>
+              <string>Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:&#xd;
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|</string>
+            </steps>
+          </scenario>
+          <storyPath>stories.correoelectronico.correoelectronico/correo_electronico_gmail.story</storyPath>
+          <allowed>true</allowed>
+          <examplePerformableScenarios>
+            <examplePerformableScenario>
+              <parameters class="linked-hash-map">
+                <entry>
+                  <string></string>
+                  <string></string>
+                </entry>
+              </parameters>
+              <givenStories/>
+              <beforeSteps>
+                <matches/>
+              </beforeSteps>
+              <steps>
+                <matches/>
+                <results>
+                  <successful>
+                    <step>Given puedo ingresar a gmail</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Given puedo ingresar a gmail</parametrisedStep>
+                    <durationInMillis>10161</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:&#xd;
+|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:?&#xd;
+|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |?</parametrisedStep>
+                    <durationInMillis>14262</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:&#xd;
+|para                                       |asunto              |mensaje                                             |&#xd;
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:?&#xd;
+|para                                       |asunto              |mensaje                                             |&#xd;
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|?</parametrisedStep>
+                    <durationInMillis>10231</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>When quiera acceder a la cuenta de correo electronico del usuario destinatario</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>When quiera acceder a la cuenta de correo electronico del usuario destinatario</parametrisedStep>
+                    <durationInMillis>7208</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:&#xd;
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:?&#xd;
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |?</parametrisedStep>
+                    <durationInMillis>8161</durationInMillis>
+                  </successful>
+                  <successful>
+                    <step>Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:&#xd;
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|</step>
+                    <type>SUCCESSFUL</type>
+                    <parametrisedStep>Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:?&#xd;
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|?</parametrisedStep>
+                    <durationInMillis>4462</durationInMillis>
+                  </successful>
+                </results>
+              </steps>
+              <afterSteps>
+                <matches/>
+              </afterSteps>
+              <storyAndScenarioMeta>
+                <properties/>
+              </storyAndScenarioMeta>
+              <scenario>
+                <title>ingreso a correo electronico de gmail</title>
+                <meta>
+                  <properties/>
+                </meta>
+                <givenStories>
+                  <givenStories/>
+                  <givenStoriesAsString></givenStoriesAsString>
+                  <examplesTable>
+                    <tableAsString></tableAsString>
+                    <headerSeparator>|</headerSeparator>
+                    <valueSeparator>|</valueSeparator>
+                    <ignorableSeparator>|--</ignorableSeparator>
+                    <tableTransformers>
+                      <transformers>
+                        <entry>
+                          <string>FORMATTING</string>
+                          <formatting/>
+                        </entry>
+                        <entry>
+                          <string>REPLACING</string>
+                          <replacing/>
+                        </entry>
+                        <entry>
+                          <string>FROM_LANDSCAPE</string>
+                          <fromLandscape/>
+                        </entry>
+                      </transformers>
+                    </tableTransformers>
+                    <headers/>
+                    <data/>
+                    <properties>
+                      <property name="headerSeparator" value="|"/>
+                      <property name="valueSeparator" value="|"/>
+                      <property name="ignorableSeparator" value="|--"/>
+                    </properties>
+                    <propertiesAsString></propertiesAsString>
+                    <namedParameters/>
+                    <trim>true</trim>
+                  </examplesTable>
+                </givenStories>
+                <examplesTable>
+                  <tableAsString>||&#xd;
+||</tableAsString>
+                  <headerSeparator>|</headerSeparator>
+                  <valueSeparator>|</valueSeparator>
+                  <ignorableSeparator>|--</ignorableSeparator>
+                  <tableTransformers>
+                    <transformers>
+                      <entry>
+                        <string>FORMATTING</string>
+                        <formatting/>
+                      </entry>
+                      <entry>
+                        <string>REPLACING</string>
+                        <replacing/>
+                      </entry>
+                      <entry>
+                        <string>FROM_LANDSCAPE</string>
+                        <fromLandscape/>
+                      </entry>
+                    </transformers>
+                  </tableTransformers>
+                  <headers>
+                    <string></string>
+                  </headers>
+                  <data>
+                    <linked-hash-map>
+                      <entry>
+                        <string></string>
+                        <string></string>
+                      </entry>
+                    </linked-hash-map>
+                  </data>
+                  <properties>
+                    <property name="headerSeparator" value="|"/>
+                    <property name="valueSeparator" value="|"/>
+                    <property name="ignorableSeparator" value="|--"/>
+                  </properties>
+                  <propertiesAsString></propertiesAsString>
+                  <namedParameters/>
+                  <trim>true</trim>
+                </examplesTable>
+                <steps>
+                  <string>Given puedo ingresar a gmail</string>
+                  <string>And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:&#xd;
+|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |</string>
+                  <string>And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:&#xd;
+|para                                       |asunto              |mensaje                                             |&#xd;
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|</string>
+                  <string>When quiera acceder a la cuenta de correo electronico del usuario destinatario</string>
+                  <string>And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:&#xd;
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |</string>
+                  <string>Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:&#xd;
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|</string>
+                </steps>
+              </scenario>
+            </examplePerformableScenario>
+          </examplePerformableScenarios>
+          <status>SUCCESSFUL</status>
+        </performableScenario>
+      </scenarios>
+      <beforeSteps/>
+      <afterSteps/>
+      <timing>
+        <durationInMillis>54745</durationInMillis>
+      </timing>
+      <givenStory>false</givenStory>
+    </performableStory>
+  </stories>
+  <scenarios>
+    <performableScenario>
+      <scenario>
+        <title>ingreso a correo electronico de gmail</title>
+        <meta>
+          <properties/>
+        </meta>
+        <givenStories>
+          <givenStories/>
+          <givenStoriesAsString></givenStoriesAsString>
+          <examplesTable>
+            <tableAsString></tableAsString>
+            <headerSeparator>|</headerSeparator>
+            <valueSeparator>|</valueSeparator>
+            <ignorableSeparator>|--</ignorableSeparator>
+            <tableTransformers>
+              <transformers>
+                <entry>
+                  <string>FORMATTING</string>
+                  <formatting/>
+                </entry>
+                <entry>
+                  <string>REPLACING</string>
+                  <replacing/>
+                </entry>
+                <entry>
+                  <string>FROM_LANDSCAPE</string>
+                  <fromLandscape/>
+                </entry>
+              </transformers>
+            </tableTransformers>
+            <headers/>
+            <data/>
+            <properties>
+              <property name="headerSeparator" value="|"/>
+              <property name="valueSeparator" value="|"/>
+              <property name="ignorableSeparator" value="|--"/>
+            </properties>
+            <propertiesAsString></propertiesAsString>
+            <namedParameters/>
+            <trim>true</trim>
+          </examplesTable>
+        </givenStories>
+        <examplesTable>
+          <tableAsString>||&#xd;
+||</tableAsString>
+          <headerSeparator>|</headerSeparator>
+          <valueSeparator>|</valueSeparator>
+          <ignorableSeparator>|--</ignorableSeparator>
+          <tableTransformers>
+            <transformers>
+              <entry>
+                <string>FORMATTING</string>
+                <formatting/>
+              </entry>
+              <entry>
+                <string>REPLACING</string>
+                <replacing/>
+              </entry>
+              <entry>
+                <string>FROM_LANDSCAPE</string>
+                <fromLandscape/>
+              </entry>
+            </transformers>
+          </tableTransformers>
+          <headers>
+            <string></string>
+          </headers>
+          <data>
+            <linked-hash-map>
+              <entry>
+                <string></string>
+                <string></string>
+              </entry>
+            </linked-hash-map>
+          </data>
+          <properties>
+            <property name="headerSeparator" value="|"/>
+            <property name="valueSeparator" value="|"/>
+            <property name="ignorableSeparator" value="|--"/>
+          </properties>
+          <propertiesAsString></propertiesAsString>
+          <namedParameters/>
+          <trim>true</trim>
+        </examplesTable>
+        <steps>
+          <string>Given puedo ingresar a gmail</string>
+          <string>And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:&#xd;
+|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |</string>
+          <string>And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:&#xd;
+|para                                       |asunto              |mensaje                                             |&#xd;
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|</string>
+          <string>When quiera acceder a la cuenta de correo electronico del usuario destinatario</string>
+          <string>And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:&#xd;
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |</string>
+          <string>Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:&#xd;
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|</string>
+        </steps>
+      </scenario>
+      <storyPath>stories.correoelectronico.correoelectronico/correo_electronico_gmail.story</storyPath>
+      <allowed>true</allowed>
+      <examplePerformableScenarios>
+        <examplePerformableScenario>
+          <parameters class="linked-hash-map">
+            <entry>
+              <string></string>
+              <string></string>
+            </entry>
+          </parameters>
+          <givenStories/>
+          <beforeSteps>
+            <matches/>
+          </beforeSteps>
+          <steps>
+            <matches/>
+            <results>
+              <successful>
+                <step>Given puedo ingresar a gmail</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Given puedo ingresar a gmail</parametrisedStep>
+                <durationInMillis>10161</durationInMillis>
+              </successful>
+              <successful>
+                <step>And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:&#xd;
+|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:?&#xd;
+|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |?</parametrisedStep>
+                <durationInMillis>14262</durationInMillis>
+              </successful>
+              <successful>
+                <step>And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:&#xd;
+|para                                       |asunto              |mensaje                                             |&#xd;
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:?&#xd;
+|para                                       |asunto              |mensaje                                             |&#xd;
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|?</parametrisedStep>
+                <durationInMillis>10231</durationInMillis>
+              </successful>
+              <successful>
+                <step>When quiera acceder a la cuenta de correo electronico del usuario destinatario</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>When quiera acceder a la cuenta de correo electronico del usuario destinatario</parametrisedStep>
+                <durationInMillis>7208</durationInMillis>
+              </successful>
+              <successful>
+                <step>And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:&#xd;
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:?&#xd;
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |?</parametrisedStep>
+                <durationInMillis>8161</durationInMillis>
+              </successful>
+              <successful>
+                <step>Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:&#xd;
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|</step>
+                <type>SUCCESSFUL</type>
+                <parametrisedStep>Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:?&#xd;
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|?</parametrisedStep>
+                <durationInMillis>4462</durationInMillis>
+              </successful>
+            </results>
+          </steps>
+          <afterSteps>
+            <matches/>
+          </afterSteps>
+          <storyAndScenarioMeta>
+            <properties/>
+          </storyAndScenarioMeta>
+          <scenario>
+            <title>ingreso a correo electronico de gmail</title>
+            <meta>
+              <properties/>
+            </meta>
+            <givenStories>
+              <givenStories/>
+              <givenStoriesAsString></givenStoriesAsString>
+              <examplesTable>
+                <tableAsString></tableAsString>
+                <headerSeparator>|</headerSeparator>
+                <valueSeparator>|</valueSeparator>
+                <ignorableSeparator>|--</ignorableSeparator>
+                <tableTransformers>
+                  <transformers>
+                    <entry>
+                      <string>FORMATTING</string>
+                      <formatting/>
+                    </entry>
+                    <entry>
+                      <string>REPLACING</string>
+                      <replacing/>
+                    </entry>
+                    <entry>
+                      <string>FROM_LANDSCAPE</string>
+                      <fromLandscape/>
+                    </entry>
+                  </transformers>
+                </tableTransformers>
+                <headers/>
+                <data/>
+                <properties>
+                  <property name="headerSeparator" value="|"/>
+                  <property name="valueSeparator" value="|"/>
+                  <property name="ignorableSeparator" value="|--"/>
+                </properties>
+                <propertiesAsString></propertiesAsString>
+                <namedParameters/>
+                <trim>true</trim>
+              </examplesTable>
+            </givenStories>
+            <examplesTable>
+              <tableAsString>||&#xd;
+||</tableAsString>
+              <headerSeparator>|</headerSeparator>
+              <valueSeparator>|</valueSeparator>
+              <ignorableSeparator>|--</ignorableSeparator>
+              <tableTransformers>
+                <transformers>
+                  <entry>
+                    <string>FORMATTING</string>
+                    <formatting/>
+                  </entry>
+                  <entry>
+                    <string>REPLACING</string>
+                    <replacing/>
+                  </entry>
+                  <entry>
+                    <string>FROM_LANDSCAPE</string>
+                    <fromLandscape/>
+                  </entry>
+                </transformers>
+              </tableTransformers>
+              <headers>
+                <string></string>
+              </headers>
+              <data>
+                <linked-hash-map>
+                  <entry>
+                    <string></string>
+                    <string></string>
+                  </entry>
+                </linked-hash-map>
+              </data>
+              <properties>
+                <property name="headerSeparator" value="|"/>
+                <property name="valueSeparator" value="|"/>
+                <property name="ignorableSeparator" value="|--"/>
+              </properties>
+              <propertiesAsString></propertiesAsString>
+              <namedParameters/>
+              <trim>true</trim>
+            </examplesTable>
+            <steps>
+              <string>Given puedo ingresar a gmail</string>
+              <string>And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:&#xd;
+|correoElectronicoONumeroTelefonico              |contrasenia                  |&#xd;
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |</string>
+              <string>And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:&#xd;
+|para                                       |asunto              |mensaje                                             |&#xd;
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|</string>
+              <string>When quiera acceder a la cuenta de correo electronico del usuario destinatario</string>
+              <string>And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:&#xd;
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |&#xd;
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |</string>
+              <string>Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:&#xd;
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |&#xd;
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|</string>
+            </steps>
+          </scenario>
+        </examplePerformableScenario>
+      </examplePerformableScenarios>
+      <status>SUCCESSFUL</status>
+    </performableScenario>
+  </scenarios>
+</xref>

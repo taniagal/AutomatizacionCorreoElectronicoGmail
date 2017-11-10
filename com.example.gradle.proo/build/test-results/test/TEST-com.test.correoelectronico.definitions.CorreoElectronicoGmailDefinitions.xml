@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.test.correoelectronico.definitions.CorreoElectronicoGmailDefinitions" tests="6" skipped="0" failures="0" errors="0" timestamp="2017-11-10T19:28:39" hostname="PQVSQ02732" time="54.511">
+  <properties/>
+  <testcase name="Given puedo ingresar a gmail" classname="com.test.correoelectronico.definitions.CorreoElectronicoGmailDefinitions" time="10.161"/>
+  <testcase name="And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:, " classname="com.test.correoelectronico.definitions.CorreoElectronicoGmailDefinitions" time="14.263"/>
+  <testcase name="And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:, " classname="com.test.correoelectronico.definitions.CorreoElectronicoGmailDefinitions" time="10.231"/>
+  <testcase name="When quiera acceder a la cuenta de correo electronico del usuario destinatario" classname="com.test.correoelectronico.definitions.CorreoElectronicoGmailDefinitions" time="7.209"/>
+  <testcase name="And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:, " classname="com.test.correoelectronico.definitions.CorreoElectronicoGmailDefinitions" time="8.161"/>
+  <testcase name="Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:, " classname="com.test.correoelectronico.definitions.CorreoElectronicoGmailDefinitions" time="4.462"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 7114
+Only local connections are allowed.
+log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+]]></system-err>
+</testsuite>

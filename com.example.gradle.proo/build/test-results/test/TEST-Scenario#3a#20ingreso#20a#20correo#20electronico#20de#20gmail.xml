@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Scenario: ingreso a correo electronico de gmail" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-10T19:28:39" hostname="PQVSQ02732" time="54.692">
+  <properties/>
+  <testcase name="classMethod" classname="Scenario: ingreso a correo electronico de gmail" time="54.692"/>
+  <system-out><![CDATA[Scenario: ingreso a correo electronico de gmail
+Examples:
+Given puedo ingresar a gmail
+And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:
+|correoElectronicoONumeroTelefonico              |contrasenia                  |
+|taniagrajalesalzate@gmail.com                   |)%=#!%_taniaa                |
+And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:
+|para                                       |asunto              |mensaje                                             |
+|carlitoslop9876@gmail.com                  |Prueba Correo15     |Hola Carlos esta es una prueba de correo electronico|
+When quiera acceder a la cuenta de correo electronico del usuario destinatario
+And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:
+|correoElectronicoONumeroTelefonico                      |contrasenia                                |
+|carlitoslop9876@gmail.com                               |carlosgrisales                             |
+Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:
+|correoElectronicoONumeroTelefonico                 |asunto       |mensaje                                             |
+|taniagrajalesalzate@gmail.com                      |Prueba Correo|Hola Carlos esta es una prueba de correo electronico|
+
+||
+||
+
+Example: {=}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
