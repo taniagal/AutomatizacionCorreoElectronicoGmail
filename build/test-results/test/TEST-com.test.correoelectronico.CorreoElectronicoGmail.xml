@@ -4,64 +4,18 @@
   <system-out><![CDATA[Processing system properties {}
 Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=false,ignoreFailureInView=true,verboseFailures=false,verboseFiltering=false,storyTimeouts=300,threads=1,failOnStoryTimeout=false]
 
+(BeforeStories)
 Running story stories.correoelectronico.correoelectronico/correo_electronico_gmail.story
-Given puedo ingresar a gmail
-And puedo ingresar a mi correo electronico de gmail con la siguiente informacion:
-|correoElectronicoONumeroTelefonico|contrasenia|
-|taniagrajalesalzate@gmail.com|)%=#!%_taniaa|
+Using timeout for story correo_electronico_gmail.story of 300 secs.
 
-And puedo enviar un mensaje de correo electronico a un usuario con los siguientes datos:
-|para|asunto|mensaje|
-|carlitoslop9876@gmail.com|Prueba Correo15|Hola Carlos esta es una prueba de correo electronico|
- (FAILED)
-(net.serenitybdd.core.exceptions.SerenityManagedException: no such element: Unable to locate element: {"method":"xpath","selector":".//table/tbody/tr/td[2]/div/div/textarea[@role='combobox']"}
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 27 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'PQVSQ02732', ip: '20.5.50.18', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\tanigral\AppData\Local\Temp\scoped_dir16388_19653}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: fee0ea2405b757415acd6defdb37bc0f
-*** Element info: {Using=xpath, value=.//table/tbody/tr/td[2]/div/div/textarea[@role='combobox']})
-When quiera acceder a la cuenta de correo electronico del usuario destinatario (NOT PERFORMED)
-And ingrese al correo electronico al cual envie el mensaje con los siguientes datos:
-|correoElectronicoONumeroTelefonico|contrasenia|
-|carlitoslop9876@gmail.com|carlosgrisales|
- (NOT PERFORMED)
-Then debo poder visualizar la informacion que se me ha enviado junto con el usuario que me la envio:
-|correoElectronicoONumeroTelefonico|asunto|mensaje|
-|taniagrajalesalzate@gmail.com|Prueba Correo|Hola Carlos esta es una prueba de correo electronico|
- (NOT PERFORMED)
+(stories.correoelectronico.correoelectronico/correo_electronico_gmail.story)
 
 
-net.serenitybdd.core.exceptions.SerenityManagedException: no such element: Unable to locate element: {"method":"xpath","selector":".//table/tbody/tr/td[2]/div/div/textarea[@role='combobox']"}
-  (Session info: chrome=60.0.3112.78)
-  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 27 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'PQVSQ02732', ip: '20.5.50.18', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_45'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\tanigral\AppData\Local\Temp\scoped_dir16388_19653}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=60.0.3112.78, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
-Session ID: fee0ea2405b757415acd6defdb37bc0f
-*** Element info: {Using=xpath, value=.//table/tbody/tr/td[2]/div/div/textarea[@role='combobox']}
-	at net.serenitybdd.core.exceptions.SerenityManagedException.detachedCopyOf(SerenityManagedException.java:20)
-	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:341)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:134)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:61)
-	at com.test.correoelectronico.steps.CorreoElectronicoGmailSteps$$EnhancerByCGLIB$$c44ce715.enviarMensajeCorreoElectronico(<generated>)
-	at com.test.correoelectronico.definitions.CorreoElectronicoGmailDefinitions.enviarMensajeCorreoElectronico(CorreoElectronicoGmailDefinitions.java:24)
-	(reflection-invoke)
-	at org.jbehave.core.steps.StepCreator$ParametrisedStep.perform(StepCreator.java:599)
-	at org.jbehave.core.embedder.PerformableTree$FineSoFar.run(PerformableTree.java:340)
-...
 
 
-Generating reports view to 'C:\Users\tanigral\Documents\com.example.gradle.proo\build\classes\java\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
+(AfterStories)
+Generating reports view to 'C:\Users\tanigral\Documents\AutomatizacionCorreoElectronicoGmail\build\classes\java\jbehave' using formats '[stats, console, html, xml, serenityreporter, junitscenarioreporter]' and view properties '{decorateNonHtml=true}'
 Reports view generated with 2 stories (of which 0 pending) containing 1 scenarios (of which 0 pending)
-Failures in reports view: 1 scenarios failed
 ]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation

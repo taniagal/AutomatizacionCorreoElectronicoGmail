@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="java.lang.Object" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-10T22:01:38" hostname="PQVSQ02732" time="32.098">
+<testsuite name="java.lang.Object" tests="2" skipped="0" failures="0" errors="0" timestamp="2017-11-11T03:54:37" hostname="PQVSQ02732" time="58.239">
   <properties/>
-  <testcase name="BeforeStories" classname="java.lang.Object" time="0.039"/>
-  <testcase name="AfterStories" classname="java.lang.Object" time="0.006"/>
+  <testcase name="BeforeStories" classname="java.lang.Object" time="0.028"/>
+  <testcase name="AfterStories" classname="java.lang.Object" time="1.51"/>
   <system-out><![CDATA[
-(BeforeStories)
 
-(AfterStories)
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

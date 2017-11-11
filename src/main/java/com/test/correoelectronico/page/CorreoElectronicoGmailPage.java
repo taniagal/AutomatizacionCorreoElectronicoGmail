@@ -50,7 +50,6 @@ public class CorreoElectronicoGmailPage extends PageUtil{
         ingresarDato(mensaje,driver.findElement(By.xpath(".//*[@role='textbox']")));
         clickearBoton(driver.findElement(By.xpath("html/body/div[16]/div/div/div/div/div[3]/div/div/div[4]/table/tbody/tr/td[2]/table/tbody/tr[2]/td/div/div/div[4]/table/tbody/tr/td[1]/div/div[2]")));
         Thread.sleep(2000);
-        //waitFor(driver.findElement(By.xpath(".//div/span[contains(.,'View message')]")));
     }
 
     public void salirEIngresarACorreoElectronico() throws InterruptedException {

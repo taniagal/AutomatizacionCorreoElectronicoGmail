@@ -8,6 +8,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/com/test/correoelectronico/page/CorreoElectronicoGmailPage.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/target/site/serenity/8b601049e3cd5ba8d2b8ff1340ea48fd.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/target/site/serenity/8b601049e3cd5ba8d2b8ff1340ea48fd.json">
+          <value>
+            <set />
+          </value>
+        </entry>
       </map>
     </option>
   </component>
